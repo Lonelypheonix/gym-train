@@ -1,7 +1,7 @@
 /* GTP service worker: network-first for the page, cache-first for same-origin files,
    stale-while-revalidate for fonts and the Firebase SDK, never cache Firestore calls. */
 const CACHE = 'gtp-v2';
-const SHELL = ['./gym_training_plan.html', './manifest.json'];
+const SHELL = ['./index.html', './manifest.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE)
