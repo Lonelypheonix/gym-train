@@ -1,0 +1,20 @@
+{
+  "name": "Gym Training Plan — Work-Week Cut",
+  "short_name": "GTP",
+  "description": "12-week fat-loss and strength plan built around a 9-to-6 job, with meals, tracking and cloud sync.",
+  "start_url": "./gym_training_plan.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0d0f14",
+  "theme_color": "#0d0f14",
+  "orientation": "portrait-primary",
+  "icons": [
+    {"src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='32' fill='%230d0f14'/%3E%3Crect x='30' y='86' width='132' height='20' rx='6' fill='%23e8ff47'/%3E%3Crect x='44' y='56' width='20' height='80' rx='6' fill='%23e8ff47'/%3E%3Crect x='128' y='56' width='20' height='80' rx='6' fill='%23e8ff47'/%3E%3C/svg%3E", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any"},
+    {"src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='32' fill='%230d0f14'/%3E%3Crect x='30' y='86' width='132' height='20' rx='6' fill='%23e8ff47'/%3E%3Crect x='44' y='56' width='20' height='80' rx='6' fill='%23e8ff47'/%3E%3Crect x='128' y='56' width='20' height='80' rx='6' fill='%23e8ff47'/%3E%3C/svg%3E", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any"}
+  ],
+  "categories": ["health", "fitness"],
+  "shortcuts": [
+    {"name": "Today's workout", "short_name": "Workout", "url": "./gym_training_plan.html#plan"},
+    {"name": "Nutrition", "short_name": "Meals", "url": "./gym_training_plan.html#nutrition"}
+  ]
+}
