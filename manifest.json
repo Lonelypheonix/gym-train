@@ -2,7 +2,7 @@
   "name": "Gym Training Plan — Work-Week Cut",
   "short_name": "GTP",
   "description": "12-week fat-loss and strength plan built around a 9-to-6 job, with meals, tracking and cloud sync.",
-  "start_url": "./gym_training_plan.html",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#0d0f14",
@@ -14,7 +14,7 @@
   ],
   "categories": ["health", "fitness"],
   "shortcuts": [
-    {"name": "Today's workout", "short_name": "Workout", "url": "./gym_training_plan.html#plan"},
-    {"name": "Nutrition", "short_name": "Meals", "url": "./gym_training_plan.html#nutrition"}
+    {"name": "Today's workout", "short_name": "Workout", "url": "./index.html#plan"},
+    {"name": "Nutrition", "short_name": "Meals", "url": "./index.html#nutrition"}
   ]
 }
