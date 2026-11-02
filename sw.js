@@ -1,7 +1,7 @@
 /* GTP service worker: network-first for the page, cache-first for same-origin files,
    stale-while-revalidate for fonts and the Firebase SDK, never cache Firestore calls. */
 const CACHE = 'gtp-v2';
-const SHELL = ['./gym_training_plan.html', './manifest.json'];
+const SHELL = ['./index.html', './manifest.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE)
@@ -26,7 +26,7 @@ self.addEventListener('fetch', e => {
       const copy = res.clone();
       caches.open(CACHE).then(c => c.put(req, copy));
       return res;
-    }).catch(() => caches.match(req).then(r => r || caches.match('./gym_training_plan.html'))));
+    }).catch(() => caches.match(req).then(r => r || caches.match('./index.html'))));
     return;
   }
 
